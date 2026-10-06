@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Router from './components/Router';
+import Menu from './components/Menu';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <h1>Título de la página</h1>
+    <Menu />
+    <hr/>
+    <Router />
+    <hr/>
+    <h2>Pie de página</h2>
   </React.StrictMode>
 );
 
